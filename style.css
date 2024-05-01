@@ -1,0 +1,36 @@
+*{ /*resetting the margin for all the elements*/
+    margin: 0;
+}
+.nav
+{
+    float: right;
+    padding-right: 10px;
+    background-color:bisque ;
+}
+.page1
+{
+    width: 100vw; /*the width of whole window*/
+    height: 100vh; /*the height of whole window*/
+    display: grid;
+    /* grid-template-columns: repeat(3,auto); */
+    grid-template-columns:750px 450px auto;
+}
+.box1
+{
+    padding: 80px 150px;
+    justify-content:center;
+    background-color: lavender;
+}
+.box2
+{
+    background-color: bisque;
+}
+.image-box
+{
+    position:absolute;
+    width:130px;
+    height: 150px;
+    bottom: 400px;
+    left: 680px;
+    border: 2px solid;
+}
